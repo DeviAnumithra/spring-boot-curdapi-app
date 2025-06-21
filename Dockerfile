@@ -7,7 +7,7 @@ EXPOSE 8080
 # Copy the JAR file into the container
 ADD target/CRUDAPIexample-0.0.1-SNAPSHOT.jar app.jar
 
-# Run the jar file
+# Run the jar filegit
 ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 
